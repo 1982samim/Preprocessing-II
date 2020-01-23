@@ -168,6 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  width: 100%;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav .nav-items {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.4rem 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+nav .nav-items h1 {
+  margin-right: 40%;
+}
+nav .nav-items a {
+  font-size: 1.57em;
+  text-decoration: none;
+  color: #212529;
+  padding: 0 1.7rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +199,17 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home header h2 {
+  margin-top: 2rem;
+}
+.home header p {
+  padding-bottom: 2rem;
 }
 .home .content-section {
   margin: 30px 0;
@@ -224,4 +256,17 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 20rem;
+  background: #17A2B8;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.home .content-pick .destination .btn:hover {
+  background: #FFFFFF;
+  color: #17A2B8;
 }
